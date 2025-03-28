@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<table class="table table-striped">
+    <tr>
+        <th></th>
+        <th>Singleton</th>
+        <th>Scoped</th>
+        <th>Transient</th>
+        
+    </tr>
+    <tr>
+        <th>1.</th>
+        <td>@Model.GuidSingleton</td>
+        <td>@Model.GuidScoped</td>
+        <td>@Model.GuidTransient</td>
+    </tr>
+    <tr>
+        <th>2.</th>
+        <td>@Model.GuidSingleton2</td>
+        <td>@Model.GuidScoped2</td>
+        <td>@Model.GuidTransient2</td>
+    </tr>
+</table>
