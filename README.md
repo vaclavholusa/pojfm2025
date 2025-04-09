@@ -21,7 +21,7 @@
 	- Scoped
 	- Singleton
 
-## 3. lekce
+## 4. lekce
 - úvod do Entity Framework Core
 	- vysvětlení pojmů Entita, Databázový Kontext
 - ukázka tvorby entit
