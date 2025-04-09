@@ -20,3 +20,11 @@
 	- Transient
 	- Scoped
 	- Singleton
+
+## 3. lekce
+- úvod do Entity Framework Core
+	- vysvětlení pojmů Entita, Databázový Kontext
+- ukázka tvorby entit
+- ukázka generování migrací
+- ukázka řešení relace M:N
+- ukázka načítání navázaných entit
